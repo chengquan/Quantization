@@ -1,5 +1,5 @@
 # Quantization
-A simple demo for the illustration the quantization of NNs.  
+A simple demo for illustration of the quantization of NNs.  
 Top file: train_mnist_nas.py  
 
 This quantization method has already been used in the following publications:
