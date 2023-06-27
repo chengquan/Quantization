@@ -39,7 +39,7 @@ Some relevant .txt files could be generated.
 
 
 
-#### Publication
+### Publication
 
 This quantization method has already been used in the following publications:
 
