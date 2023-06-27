@@ -11,7 +11,7 @@ Then, please use the “dump_file()” function to dump the quantized INT8 model
 ### Step 2: Verification
 If you need to test the quantized INT8 model, please set correct model file and run the “model_eval()” function. 
 ### Step 3: Extraction
-If you want to analyze the dumped file, please use the “parse_hand_dumped_file()” function to decode the dumped file.  
+If you want to extract the dumped file as .txt, please use the “parse_hand_dumped_file()” function to decode the dumped file.  
 Some relevant .txt files could be generated.
 
 
