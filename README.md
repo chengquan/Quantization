@@ -2,6 +2,48 @@
 A simple demo for the illustration of the quantization of NNs.  
 Top file: train_mnist_nas.py  
 
+## Training step
+
+### Step 1
+Please run the “model_train()” function in debug mode and set a breakpoint at “hook = 0”. After the finish of training, the code will be stuck at the breakpoint. Then, please use the “dump_file()” function in the console to extract the quantized INT8 model into a dump file. Besides, you can change the configuration parameters in “cfg.py”.  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This quantization method has already been used in the following publications:
 
 @ARTICLE{9793397,  author={Huang, Mingqiang and Liu, Yucen and Man, Changhai and Li, Kai and Cheng, Quan and Mao, Wei and Yu, Hao},  journal={IEEE Transactions on Circuits and Systems I: Regular Papers},   title={A High Performance Multi-Bit-Width Booth Vector Systolic Accelerator for NAS Optimized Deep Learning Neural Networks},   year={2022},  volume={},  number={},  pages={1-13},  doi={10.1109/TCSI.2022.3178474}}
