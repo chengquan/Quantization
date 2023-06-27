@@ -4,10 +4,15 @@ Top file: train_mnist_nas.py
 
 ## Training step
 
-### Step 1
+### Step 1: Training
 Run the “model_train()” function in debug mode and set a breakpoint at “hook = 0”.  
 After the finish of training, the code will be stuck at the breakpoint.  
-Then, please use the “dump_file()” function in the console to extract the quantized INT8 model into a dump file. Besides, you can change the configuration parameters in “cfg.py”.  
+Then, please use the “dump_file()” function to dump the quantized INT8 model.
+### Step 2: Verification
+If you need to test the quantized INT8 model, please set correct model file and run the “model_eval()” function. 
+### Step 3: Extraction
+If you want to analyze the dumped file, please use the “parse_hand_dumped_file()” function to decode the dumped file.  
+Some relevant .txt files could be generated.
 
 
 
